@@ -215,7 +215,7 @@ const Post = ({ id, author, content, createdAt, onPostUpdate, isMyPost, ref }: P
               <p className="text-sm text-gray-500">{formatDate(createdAt)}</p>
             </div>
             <span className="absolute -top-3 right-0 bg-[#F8F7F1] text-greenish-hold text-sm font-semibold py-2 px-3 rounded-full mt-2">
-              Sell & Buy
+              خرید و فروش
             </span>
           </div>
 
