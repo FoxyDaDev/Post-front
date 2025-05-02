@@ -53,7 +53,7 @@ function TopMenuBar({ onSearchChange }: TopMenuBarProps) {
           />
           <input
             type="text"
-            placeholder="جستجو"
+            placeholder="Search for posts"
             className="pl-10 pr-4 py-2 focus:outline-none"
             maxLength={25}
             onChange={(e) => onSearchChange(e.target.value)}
