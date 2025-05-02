@@ -6,7 +6,7 @@ export default function Sidebar() {
     <div className="w-80 h-screen flex flex-col justify-between rounded-lg">
       <div>
         <div className="p-4 justify-items-center">
-          <h1 className="text-2xl font-bold text-center">یارمحل</h1>
+          <h1 className="text-2xl font-bold text-center">Posts</h1>
         </div>
         <div className="py-8 font-nunito_Sans">
           <NavLink
@@ -26,7 +26,7 @@ export default function Sidebar() {
               alt="activity-feed"
               className="mr-2"
             />
-            پست ها
+            Posts
           </NavLink>
           <NavLink
             to="/my-posts"
@@ -43,7 +43,7 @@ export default function Sidebar() {
               alt="My Posts Icon"
               className="mr-2"
             />
-            پست های من
+            My Posts
           </NavLink>
           <NavLink
             to="/create-post"
@@ -60,7 +60,7 @@ export default function Sidebar() {
               alt="Create Post Icon"
               className="mr-2"
             />
-            ساخت پست
+            Create Post
           </NavLink>
         </div>
       </div>
